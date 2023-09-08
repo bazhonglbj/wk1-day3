@@ -10,6 +10,17 @@ p{
     font-family: 'Times New Roman', Times, serif;
 }
 
+.index-p {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.apply-p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+}
+
 h1 {
     font-family: Arial;
 }
@@ -24,19 +35,19 @@ ul {
 }
 
 li a{
-    text-decoration: none; /* remove underline */
+    text-decoration: none; 
 }
 li a:link {
-    color: #000; /* before click */
+    color: #000; 
 }
 li a:visited {
-    color: #818db3; /* after click */
+    color: #818db3; 
 }
 li a:hover {
-    columns: #333; /* mouse over */
+    columns: #333; 
 }
 li a:active {
-    color: #753a30; /* mouse down */
+    color: #753a30; 
 }
 
 p a:link {
