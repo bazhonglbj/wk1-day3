@@ -7,11 +7,9 @@
 <body>
     
     <div id = "container">
-        
         <header>Local Community Information</header>
-        
         <nav>
-            <ul>
+            <ul class="first-ul">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="pet_adoption.html">Pet Adoption</a></li>
                 <li><a href="apply.html">Apply</a></li>
@@ -22,10 +20,33 @@
         <p>We are a local San Jose non-profit that takes in pets from shelters and individual donations.
             We will provide necessary vaccines and inspections at our own expense, and adopters do not need to worry about additional expenses. Everyone is welcome to donate to support our work.
             Our adopted pets include dogs and cats</p>
-        <img src="./images/cat1.jpeg" alt="cat1" width="200">
-        <img src="./images/dog1.jpeg" alt="dog1" width="200">
 
-        <p>This is our partner website.<a href="https://www.adoptapet.com/pet/30875116-san-jose-california-german-shepherd-dog-mix">Adopt a Pet</a></p>
+        <div class="slider">
+            <input type="radio" name="slides" id="slide1" checked>
+            <input type="radio" name="slides" id="slide2">
+            <input type="radio" name="slides" id="slide3">
+          
+            <div class="slides">
+              <div class="slide">
+                <img src="./images/cat1.jpeg" alt="Image 1">
+              </div>
+              <div class="slide">
+                <img src="./images/dog1.jpeg" alt="Image 2">
+              </div>
+              <div class="slide">
+                <img src="./images/cat1.jpeg" alt="Image 3">
+              </div>
+            </div>
+          
+            <div class="nav">
+              <label for="slide1" class="nav-item"></label>
+              <label for="slide2" class="nav-item"></label>
+              <label for="slide3" class="nav-item"></label>
+            </div>
+          </div>
+
+          
+        <p class="website-info">This is our partner website.<a href="https://www.adoptapet.com/pet/30875116-san-jose-california-german-shepherd-dog-mix">Adopt a Pet</a></p>
         </main>
         <footer>&copy; Copyright 2023</footer>
     </div>
